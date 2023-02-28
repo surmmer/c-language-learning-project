@@ -1,26 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include  <stdio.h>
 #include <math.h>
-//void reverse(char *pa,int size)//反转字符串
-//{
-//	size--;
-//	for(;size >= 0; size--)
-//	{
-//		printf("%c", *(pa + size));
-//	}
-//}
-//
-//
-//int main()
-//{
-//	char ch[] = "abcdef";
-//	int sizech = sizeof(ch) / sizeof(ch[0]);
-//	reverse(ch, sizeof(ch));
-//	return 0;
-//}
-
-
-
 int main()
 {
 	int len = 13;//控制菱形的行数
