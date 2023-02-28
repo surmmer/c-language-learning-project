@@ -1,9 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <Windows.h>
-#include <mmsystem.h>
 #include  <stdio.h>
 #include <math.h>
-//void reverse(char *pa,int size)//·´×ª×Ö·û´®
+//void reverse(char *pa,int size)//åè½¬å­—ç¬¦ä¸²
 //{
 //	size--;
 //	for(;size >= 0; size--)
@@ -25,16 +23,16 @@
 
 int main()
 {
-	int len = 13;//¿ØÖÆÁâĞÎµÄĞĞÊı
+	int len = 13;//æ§åˆ¶è±å½¢çš„è¡Œæ•°
 	for (int i = 1; i <= len; i++)
 	{
 		int ret = len / 2 + 1;//
-		int cont = abs(ret - i);//¿Õ¸ñÊı
+		int cont = abs(ret - i);//ç©ºæ ¼æ•°
 		while(cont--)
 		{
 			printf(" ");
 		}
-		cont = len - abs(2*(ret - i));//ĞÇºÅÊı
+		cont = len - abs(2*(ret - i));//æ˜Ÿå·æ•°
 		while(cont--)
 		{
 			printf("*");
